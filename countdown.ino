@@ -7,8 +7,8 @@
 LiquidCrystal lcd(2, 14, 16, 5, 4, 0);
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP, "time.google.com", 3600, 60000);
-const char* ssid = "Device";
-const char* password = "testpw123";
+const char* ssid = "SSID";
+const char* password = "password";
 long timeRemaining = 1;
 long target = 1545609599;
 void setup() {
