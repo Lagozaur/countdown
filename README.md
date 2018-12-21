@@ -1,2 +1,2 @@
 # countdown
-Display remaining time on a display
+![alt text](https://imgur.com/a/rE5kINu)
