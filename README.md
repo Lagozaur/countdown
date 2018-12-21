@@ -1,2 +1,2 @@
 # countdown
-![img](https://imgur.com/a/rE5kINu)
+![img](image.jpg)
