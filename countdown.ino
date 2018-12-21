@@ -6,10 +6,12 @@
 //LCD pins. Adjust to your requirements
 LiquidCrystal lcd(2, 14, 16, 5, 4, 0);
 WiFiUDP ntpUDP;
+//The first value is the number of seconds to offset the time. The second value is the refresh rate in miliseconds.
 NTPClient timeClient(ntpUDP, "time.google.com", 3600, 60000);
 const char* ssid = "SSID";
 const char* password = "password";
 long timeRemaining = 1;
+//Example timestamp
 long target = 1545609599;
 void setup() {
   lcd.begin(16, 2);
