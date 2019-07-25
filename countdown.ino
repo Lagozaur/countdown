@@ -12,7 +12,7 @@ const char* ssid = "SSID";
 const char* password = "password";
 long timeRemaining = 1;
 //Example timestamp
-long target = 1545609599;
+long target = 2147483647;
 void setup() {
   lcd.begin(16, 2);
   Serial.begin(115200);
